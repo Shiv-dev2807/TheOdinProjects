@@ -103,6 +103,9 @@ CLI -> faster way to control your computer using text commands instead of clicki
     file = cp quotes.txt thesis/quotations.txt (source - destination) copies file quotes.txt to thesis with name quotations.txt
     directory = cp -r thesis thesis_backup (copy thesis directory as thesis_backup) 
     -r -> recursive needed for folders (recursivily copy the files inside the folder)
+
+    copying multiple files = 
+        cp f.txt b.txt backup/
 }
 
 17. Delete Files{
@@ -115,3 +118,9 @@ CLI -> faster way to control your computer using text commands instead of clicki
     no recycle bin forever delete
 }
 
+*File system ideas = everything is tree structure | root = / | Home = /Users/username (directories inside directory)*
+
+18. Wildcards {
+    * -> matches many characters => *.txt -> gives all the txt files
+    ? -> 
+}
