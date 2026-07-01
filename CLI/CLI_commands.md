@@ -122,5 +122,15 @@ CLI -> faster way to control your computer using text commands instead of clicki
 
 18. Wildcards {
     * -> matches many characters => *.txt -> gives all the txt files
-    ? -> 
+    ? -> eaxtly 1 character => ex: ?.txt -> text file that has one character | (cat.txt tatt.txt lat.txt etc => ?at.txt => gives => cat.txt, lat.txt)
+    one more example => *t*ane.pdb => middle t and end ane
+
+    another example = {
+        apple.txt
+        banana.txt
+        cat.txt
+        notes.txt
+
+        ls *a* = apple,banana,cat (!* can be 0)
+    }
 }
