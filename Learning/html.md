@@ -63,3 +63,22 @@ ex: {
     </body>
 }
 Comments = Used to write notes in code that are not shown in the browser.
+
+Unordered List = when order does NOT matter
+{
+    <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+    </ul>
+}
+
+Ordered List = when order DOES matter
+{
+    <ol>
+        <li>Wake up</li>
+        <li>Brush teeth</li>
+        <li>Go to college</li>
+    </ol>
+}
+<li> = Represents each individual item in the list
