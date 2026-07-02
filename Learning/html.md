@@ -89,7 +89,7 @@ rel="noopener noreferrer" = improves security, prevents the new tab from accessi
 
 Types of link{
     Absolute links = urls,etc
-    Relative links = Used for pages inside your own website, No domain included 
+    Relative links = Used for pages inside your own website, No domain included, same project
     without folders(<a href="about.html">About</a>)
     with folders = (<a href="./pages/about.html">About</a>)
 }
@@ -98,7 +98,7 @@ src = Path to the image (absolute or relative)
 alt = Text description of image, Used if image fails to load, Important for accessibility
 (<img src="dog.jpg" alt="A happy dog">)
 
-img from parent folder = (<img src="../images/dog.jpg">)
+img from parent folder = (<img src="../images/dog.jpg">) (.. -> go up one directory)
 
 width and height = Helps browser reserve space, Prevents layout shifting (increase decrease width and height of element)
 
@@ -107,3 +107,5 @@ Prefer relative links for internal pages
 Use absolute links for external websites
 Organize files in folders (pages, images, etc.)
 Always specify image dimensions when possible}
+
+four main image formats = jpg,png,gif,svg
