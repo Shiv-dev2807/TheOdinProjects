@@ -28,7 +28,7 @@ odin-recipes/
 ├── README.md
 │
 └── recipes/
-│       ├── crisoymashburger.html
+│       ├── crispysmashburger.html
 │       ├── friedchicken.html
 │       └── chocolatelayercake.html
 │
