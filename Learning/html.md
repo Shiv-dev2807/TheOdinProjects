@@ -94,3 +94,11 @@ Types of link{
     with folders = (<a href="./pages/about.html">About</a>)
 }
 
+src = Path to the image (absolute or relative)
+alt = Text description of image, Used if image fails to load, Important for accessibility
+(<img src="dog.jpg" alt="A happy dog">)
+
+img from parent folder = (<img src="../images/dog.jpg">)
+
+width and height = Helps browser reserve space, Prevents layout shifting (increase decrease width and height of element)
+
