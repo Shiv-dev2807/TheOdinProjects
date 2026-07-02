@@ -82,3 +82,15 @@ Ordered List = when order DOES matter
     </ol>
 }
 <li> = Represents each individual item in the list
+
+<a> = anchor tag = clickable links = *href* makes it link (<a href="https://example.com">Click here</a>)
+target="_blank" = open in new tab
+rel="noopener noreferrer" = improves security, prevents the new tab from accessing the original page (<a href="https://example.com" target="_blank" rel="noreferrer">Open</a>)
+
+Types of link{
+    Absolute links = urls,etc
+    Relative links = Used for pages inside your own website, No domain included 
+    without folders(<a href="about.html">About</a>)
+    with folders = (<a href="./pages/about.html">About</a>)
+}
+
