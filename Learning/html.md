@@ -50,8 +50,8 @@ headigns = {
     <h5>
     <h6>
 }
-bold/strong = <strong>
-italic/emphasis = <em>
+bold/strong = <strong> <b> //use strong
+italic/emphasis = <em> <i>  //use em
 nesting structure = HTML elements can be placed inside other elements → called nesting.{
     Parent → outer element
     Child → inside element
