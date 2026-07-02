@@ -27,7 +27,9 @@
 
 ->Commands related to the workflow:{
     git add .
-    git commit -m "A message describing what you have done to make this snapshot different"
+    git commit -m "A message describing what you have done to make this snapshot different" 
+    or 
+    git commit -> (This opens an editor where you can write: Subject line Body description)
 }
 
 ->Commands related to checking status or log history{
@@ -35,4 +37,8 @@
     git log
 }
 
+{
+    git blame shows who last changed each line of a file and when.
+    git rebase is used to move or rewrite commit history.
+}
 ==============================================================
