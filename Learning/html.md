@@ -62,3 +62,4 @@ ex: {
         <p>This is a <strong>bold</strong> word.</p>
     </body>
 }
+Comments = Used to write notes in code that are not shown in the browser.
