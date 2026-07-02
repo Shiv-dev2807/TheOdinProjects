@@ -41,5 +41,24 @@ homepage = index.html
     Buttons
     Forms
 }
-
-
+<p> -> paragraph
+headigns = {
+    <h1>
+    <h2>
+    <h3>
+    <h4>
+    <h5>
+    <h6>
+}
+bold/strong = <strong>
+italic/emphasis = <em>
+nesting structure = HTML elements can be placed inside other elements → called nesting.{
+    Parent → outer element
+    Child → inside element
+    Siblings → elements at the same level
+}
+ex: {
+    <body>
+        <p>This is a <strong>bold</strong> word.</p>
+    </body>
+}
