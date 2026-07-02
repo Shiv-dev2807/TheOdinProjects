@@ -102,3 +102,8 @@ img from parent folder = (<img src="../images/dog.jpg">)
 
 width and height = Helps browser reserve space, Prevents layout shifting (increase decrease width and height of element)
 
+{Always use alt for images
+Prefer relative links for internal pages
+Use absolute links for external websites
+Organize files in folders (pages, images, etc.)
+Always specify image dimensions when possible}
