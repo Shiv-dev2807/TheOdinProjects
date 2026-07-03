@@ -144,3 +144,89 @@ CSS Priority (Highest → Lowest){
 }
 
 linking css = HTML <link> Tag <link rel="stylesheet" href="styles.css">
+
+
+Cascade = The cascade is the set of rules that decides which CSS style gets applied when multiple CSS rules target the same element.
+
+Specificity{
+    Inline Style
+      ↓
+    ID Selector (#id)
+      ↓
+    Class Selector (.class)
+      ↓
+    Type Selector (div, p, h1)
+      ↓
+    Universal Selector (*)
+}
+
+Inheritance{
+    Some CSS properties automatically pass from parent to children.
+
+    Usually inherited:
+    color
+    font-size
+    font-family
+    font-weight
+
+    Usually not inherited:
+    display
+    margin
+    padding
+    border
+    width
+    height
+}
+
+Rule Order{
+    If specificity is exactly the same... The last rule written wins.
+
+    .alert {
+    color: red;
+    }
+
+    .warning {
+        color: yellow;
+    }
+
+
+    final color = yellow
+}
+
+{
+    Multiple CSS rules
+        │
+        ▼
+    1. Higher Specificity?
+        │
+      Yes ───► Winner
+        │
+       No
+        ▼
+    2. Direct style vs Inherited?
+        │
+    Direct style wins
+        │
+        ▼
+    3. Same specificity?
+        │
+        ▼
+    Last written rule wins
+}
+
+{
+    | Selector         | Specificity |
+| ---------------- | ----------- |
+| Inline style     | Highest     |
+| `#id`            | High        |
+| `.class`         | Medium      |
+| `div`, `p`, `h1` | Low         |
+| `*`              | None        |
+}
+
+{
+    transition
+    !important
+    animation
+    normal
+}
