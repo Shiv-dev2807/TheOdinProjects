@@ -391,3 +391,63 @@ Result:
 
 |     container centered     |
 
+
+CSS Layout? = 
+CSS layout controls where elements are placed on a webpage relative to:
+
+Their default position
+Other elements
+Their parent container
+The browser window (viewport)
+
+Normal Flow = If no CSS changes the layout, elements follow Normal Flow.
+Source Order = Elements appear in the same order as written in HTML.
+
+
+Ways to Override Normal Flow{
+    display{ Changes how an element behaves.
+        display: block;
+        display: inline;
+        display: inline-block;
+        display: flex;
+        display: grid;
+    }
+    float{ Moves an element left or right.
+        float: left;
+        float: right;
+    }
+    position{Controls exact placement.
+        position: static;    /* default */
+        position: relative;
+        position: absolute;
+        position: fixed;
+        position: sticky;
+    }
+    Flexbox{ Used for 1-dimensional layouts (row OR column).
+        Perfect for:
+            Navbar
+            Centering
+            Cards
+            Buttons
+            Menus
+    }
+    Grid{Used for 2-dimensional layouts (rows + columns).
+        Perfect for:
+            Full page layouts
+            Dashboards
+            Galleries
+    }
+    Responsive Design{ Makes websites work on different screen sizes.
+        Main tool:
+        @media
+        Example:
+        @media (max-width:600px) {
+            ...
+        }
+    }
+    Other Layout Methods{
+        Less common:
+            Table Layout (display: table)
+            Multi-column Layout (newspaper-style columns)
+    }
+}
