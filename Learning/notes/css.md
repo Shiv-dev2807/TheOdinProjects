@@ -230,3 +230,25 @@ Rule Order{
     animation
     normal
 }
+
+
+Margin
+ ┌──────────────────────┐
+ │ Border               │
+ │  ┌───────────────┐   │
+ │  │ Padding       │   │
+ │  │ ┌───────────┐ │   │
+ │  │ │ Content   │ │   │
+ │  │ └───────────┘ │   │
+ │  └───────────────┘   │
+ └──────────────────────┘
+
+Margin collapses if 2 boxes one with margin 60px and other also 60px distance bwt them will be 60 px only
+if 60 px and 70 px (greater one is taken under consideration) that will be 70px
+
+paddin border content all together = width * height 
+10 px  30 px  100*100 = 100+ 30*2 + 10*2 = 100+60+20 = 180*180
+
+margin doesnt account in height width of actual element
+
+to make sure widht and heigh doesnt change = box-sizing: border-box; // used all the time, and mostly kept in universal selector 
