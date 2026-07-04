@@ -252,3 +252,142 @@ paddin border content all together = width * height
 margin doesnt account in height width of actual element
 
 to make sure widht and heigh doesnt change = box-sizing: border-box; // used all the time, and mostly kept in universal selector 
+
+
+Outer Display Type
+
+Determines how an element behaves relative to other elements.
+display: block;
+display: inline;
+
+================================================
+
+Inner Display Type
+
+Determines how children inside the element are laid out.
+display: flex; or grid
+
+
+
+block, inline, flex, grid
+
+| Element    | Default Display |
+| ---------- | --------------- |
+| `<div>`    | Block           |
+| `<p>`      | Block           |
+| `<h1>`     | Block           |
+| `<ul>`     | Block           |
+| `<span>`   | Inline          |
+| `<a>`      | Inline          |
+| `<strong>` | Inline          |
+| `<em>`     | Inline          |
+
+
+flex = creates a block-level flex container.
+inline-flex = creates an inline flex container.
+
+
+margin ,border, padding etc = trbl = top right bottom left (short hand) margin: 10px 20px 30px 2px;
+
+1. Box Model Works Fully Only for Block Elements
+2. Inline Elements (like <span>){
+    ❌ Do NOT respect width and height
+    ❌ Top/bottom margins don’t push other elements
+    ⚠️ Top/bottom padding & borders don’t push layout (they can overlap text)
+    ✅ Left/right margin, padding, border DO affect layout
+}
+span {
+  width: 80px;
+  height: 150px;
+  margin: 20px 30px;
+  padding: 10px 20px;
+  border: 7px solid blue;
+}
+
+What actually happens:
+width/height → ignored
+margin-top/bottom → ignored
+padding-top/bottom → expands box but overlaps nearby text
+border-top/bottom → overlaps text
+margin-left/right → works
+padding-left/right → works
+
+Solution: inline-block
+{
+    
+    Behaves like inline:
+    Stays on the same line
+    
+    Behaves like block:
+    Respects width and height
+    Respects all margins, padding, borders
+    Pushes other elements properly
+
+}
+
+Result:
+[Box] [Box] [Box]
+
+Why inline-block is useful ->
+
+Normally:
+
+Padding may overlap surrounding layout
+
+With inline-block:
+
+Click area increases
+Padding behaves correctly
+Layout stays clean
+==============================================
+
+Navigation bars
+
+Used in menus like:
+
+Navbar links
+Buttons
+Tags
+Pills
+
+Even when ul uses flex:
+
+display: flex;
+Each <a> inside is still inline by default.
+So padding may:
+
+Visually overlap borders
+Not affect layout spacing correctly
+
+Fix:
+
+.links-list a {
+  display: inline-block;
+}
+
+| Feature                    | Inline  | Inline-block | Block |
+| -------------------------- | ------- | ------------ | ----- |
+| New line                   | ❌       | ❌            | ✅     |
+| Width/height               | ❌       | ✅            | ✅     |
+| Padding/margin (all sides) | Partial | Full         | Full  |
+| Overlapping text           | Yes     | No           | No    |
+
+auto Keyword
+
+auto lets the browser decide margin automatically.
+
+Most useful case:
+
+Centering horizontally
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+Why it works:
+fixed width → element has a defined size
+left + right margin = auto → remaining space is split equally
+
+Result:
+
+|     container centered     |
+
