@@ -451,3 +451,26 @@ Ways to Override Normal Flow{
             Multi-column Layout (newspaper-style columns)
     }
 }
+
+
+
+{center a element
+1. display: block
+2. must have a width
+3. margin-left: auto;
+4. margin-right: auto;
+}
+
+
+border: 2px solid red;
+border-radius: 30px;
+
+line-height:24px; #sets the height of input field (will be exact same to height: ;)
+and more browsers honor.
+
+
+normal non flex way to center = display inline | text-align: center (parent)
+
+flex = wrap it into a container = display: flex; justify-content: center; to gap = marign left 10px rigth 10px  (scrimba)
+
+justify-content = center, end, start, space-around, space-between
