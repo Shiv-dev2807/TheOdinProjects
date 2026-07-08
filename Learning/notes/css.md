@@ -474,3 +474,31 @@ normal non flex way to center = display inline | text-align: center (parent)
 flex = wrap it into a container = display: flex; justify-content: center; to gap = marign left 10px rigth 10px  (scrimba)
 
 justify-content = center, end, start, space-around, space-between
+
+
+selectors = 
+
+Descendant = " "(space) Selects all nested elements inside a parent.
+figure img {
+  border: 4px solid red;
+}
+Select every <img> inside <figure>.
+
+Child = ">"  Selects only direct children.
+.container > p {
+  color: blue;
+}
+Only <p> elements directly inside .container become blue.
+
+Next Sibling = "+" Selects the immediately following sibling.
+img + figcaption {
+  border: 4px solid black;
+}
+Style the <figcaption> only if it comes immediately after an <img>.
+
+Subsequent Sibling = "~" Selects all siblings that come after an element.
+h2 ~ p {
+  color: green;
+}
+Every <p> after the <h2> becomes green.
+
