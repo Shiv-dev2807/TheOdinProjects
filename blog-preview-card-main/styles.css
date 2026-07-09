@@ -19,6 +19,11 @@ body{
     border-radius: 20px;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 6px 6px 0px hsl(0, 0%, 7%);
+    transition: 0.2s ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
 }
 .illustration-article{
     width: 100%;
