@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding: 100px 0px;
+
+}
+.container{
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    padding:50px;
+    width: 900px;
+    height: auto;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom:35px ;
+}
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+h1{
+    font-size: 51px;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 10px;
+}
+h2{
+    font-size:35px;
+    color: hsl(14, 45%, 36%);
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    
+}
+.anotherdiv{
+    margin-top: 35px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 24px;
+    color: hsl(332, 51%, 32%) ;
+}
+ul,ol{
+    margin-bottom: 10px;
+    padding-left: 26px;
+    padding-top: 10px;
+}
+.first-li::marker{
+    color:hsl(332, 51%, 32%) ;
+}
+.first-li{
+    margin-bottom: 10px;
+}
+.lipara{
+    font-size: 18px;
+    padding-left: 21px;
+}
+.second-li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.second-li{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+}
+.third-li{
+    margin-bottom: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    margin-top: 30px;
+    background-color: hsl(30, 18%, 87%);
+    margin-bottom: 20px;
+}
+.Nutritionpara{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+td:first-child{
+    color: hsl(30, 10%, 34%);
+}
+td:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 15px 30px;
+    border-bottom:1px solid hsl(30, 18%, 87%);
+}
