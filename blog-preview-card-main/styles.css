@@ -33,6 +33,7 @@ button{
     padding: 8px 10px; /*topbottom  leftright*/
     border-radius: 5px;
     margin-bottom: 11px;
+    transition: 0.2s ease;
 }
 button:hover{
     transform: translateY(-5px);
