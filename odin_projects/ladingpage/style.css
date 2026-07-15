@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pad{
+    padding: 10px 350px;
+}
+
+/*Header Section*/
+.header{
+    background: #1f2937;
+    width: 100%;
+    height:auto;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+/*Nav*/
+.header-link{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Hero Section*/
+
