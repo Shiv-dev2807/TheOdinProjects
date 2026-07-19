@@ -135,7 +135,7 @@ li{
     
     display: flex;
     flex-direction: column;
-    padding: 108px;
+    padding: 120px 108px;
 }
 .qp1{
     font-size: 36px;
@@ -148,3 +148,5 @@ li{
     display: flex;
     justify-content: flex-end;
 }
+
+/*Call to action*/
