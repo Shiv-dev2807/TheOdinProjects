@@ -130,5 +130,21 @@ li{
     background: #E5E7EB;
     width: 100%;
     height: auto;
-    padding-bottom: 20px;
+}
+.quote{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 108px;
+}
+.qp1{
+    font-size: 36px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+.qp2{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
