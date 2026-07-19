@@ -86,7 +86,7 @@ li{
     background: #FFFFFF;
     width: 100%;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
 }
 
 .randomh1{
@@ -114,8 +114,8 @@ li{
     padding: 0px 46px;
 }
 .box{
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     border-radius: 20px;
     background-color: #FFFFFF;
     border: solid 4px #3882F6;
@@ -127,5 +127,8 @@ li{
 /*QUOTE*/
 
 .quote-section{
-    
+    background: #E5E7EB;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
 }
