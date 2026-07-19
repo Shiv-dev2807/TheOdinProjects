@@ -162,6 +162,23 @@ li{
 }
 .callin{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 200px;
+    color: white;
+}
+.callp1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.callp2{
+    font-size: 18px;
+}
+.sbutton{
+    margin-top: 2px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: solid 2px white;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
 }
