@@ -6,6 +6,7 @@
 !same values for justify-content and align-items
 ! flex direction controls the direction of the main axis default is row
 !gap property create gap
+?flex wrap = can make flex responsive
 */
 
 
@@ -27,6 +28,8 @@
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
 
+    gap: 20px;
+    flex-wrap: wrap;
     border: 8px solid black;
     display: flex;
 }
