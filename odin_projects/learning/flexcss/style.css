@@ -1,0 +1,32 @@
+/*
+!to align your boxes with flex u need to address the parent element
+?has axis = main axis(horizontal), cross axis(verticle) 
+?for main axis allignment = justify-content 
+?cross axis = align-items
+!same values for justify-content and align-items
+*/
+
+
+
+.container1{
+    min-height: 800px;
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around;
+    ! INCONSISTENCY SPACE SPACE ADDS UP OF RIGHT SIDE OF 1ST BOX AND LEFT SIDE OF 2ND BOX  */
+    justify-content: space-evenly;
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    border: 8px solid black;
+    display: flex;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #0071FF;
+    font-size: 40pt;
+}
