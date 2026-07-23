@@ -90,5 +90,5 @@ External JavaScript (Recommended)
 
 Inline JavaScript (Not Recommended)
 {
-    
+    <button onclick="hello()">
 }
