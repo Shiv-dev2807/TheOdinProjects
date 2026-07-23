@@ -100,3 +100,17 @@ Event Listeners = Preferred way to handle events.
         console.log("Clicked");
     });
 }
+
+
+Script Loading
+JavaScript should run after HTML is loaded.
+
+Methods:
+
+Put <script> before </body>
+
+Use:
+<script type="module" src="script.js"></script>
+
+Use:
+<script defer src="script.js"></script>
