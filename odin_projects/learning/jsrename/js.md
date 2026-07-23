@@ -114,3 +114,14 @@ Use:
 
 Use:
 <script defer src="script.js"></script>
+
+
+Comments
+{
+    // This is a comment
+
+    /*
+        This is
+        a comment
+    */
+}
