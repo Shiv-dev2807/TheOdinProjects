@@ -17,3 +17,10 @@ Examples:
 Google Maps API
 OpenStreetMap API
 Bluesky API
+
+
+{
+    HTML → Structure
+    CSS → Styling
+    JavaScript → Interactivity
+}
