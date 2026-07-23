@@ -47,3 +47,16 @@ C
 C++
 
 Modern JavaScript engines use Just-In-Time (JIT) Compilation to improve speed.
+
+
+Client-side vs Server-side JavaScript
+
+Client-side
+Runs in the browser. buttons, animation, etc.
+
+Server-side
+Runs on the server.
+Example:
+Node.js
+Used for:
+Databases
