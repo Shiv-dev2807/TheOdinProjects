@@ -72,3 +72,13 @@ User actions
 Database data
 Time
 Server responses
+
+
+
+Adding JavaScript to HTML
+{
+    <script>
+        console.log("Hello");
+    </script>
+}
+before = </body>
