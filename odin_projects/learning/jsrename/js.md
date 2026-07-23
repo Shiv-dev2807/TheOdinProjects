@@ -92,3 +92,11 @@ Inline JavaScript (Not Recommended)
 {
     <button onclick="hello()">
 }
+
+
+Event Listeners = Preferred way to handle events.
+{
+    button.addEventListener("click", function(){
+        console.log("Clicked");
+    });
+}
