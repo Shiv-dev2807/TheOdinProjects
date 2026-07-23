@@ -60,3 +60,15 @@ Example:
 Node.js
 Used for:
 Databases
+
+Dynamic vs Static Websites
+
+Static Website
+Same content for every user.
+Doesn't change automatically.
+Dynamic Website
+Content changes based on:
+User actions
+Database data
+Time
+Server responses
