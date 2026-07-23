@@ -35,3 +35,15 @@ button.addEventListener("click", updateName);
 
 The variable must be created before it is used, otherwise you'll get errors like:
 ReferenceError
+
+Interpreted vs Compiled
+Interpreted Language
+Runs directly from source code.
+JavaScript is mainly interpreted.
+Compiled Language
+Converted into machine code before running.
+Examples:
+C
+C++
+
+Modern JavaScript engines use Just-In-Time (JIT) Compilation to improve speed.
