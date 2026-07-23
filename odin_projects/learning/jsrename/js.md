@@ -82,3 +82,13 @@ Adding JavaScript to HTML
     </script>
 }
 before = </body>
+
+External JavaScript (Recommended)
+{
+    <script type="module" src="script.js"></script>
+}
+
+Inline JavaScript (Not Recommended)
+{
+    
+}
