@@ -24,3 +24,14 @@ Bluesky API
     CSS → Styling
     JavaScript → Interactivity
 }
+
+JavaScript Execution Order
+
+JavaScript usually runs from top to bottom.
+example = 
+
+const button = document.querySelector("button");
+button.addEventListener("click", updateName);
+
+The variable must be created before it is used, otherwise you'll get errors like:
+ReferenceError
