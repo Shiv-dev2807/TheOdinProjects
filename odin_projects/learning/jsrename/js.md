@@ -11,3 +11,9 @@ Geolocation API → Get user's location
 Canvas/WebGL API → 2D & 3D graphics
 Audio & Video APIs → Multimedia support
 
+Third-party APIs
+
+Examples:
+Google Maps API
+OpenStreetMap API
+Bluesky API
