@@ -266,3 +266,11 @@ string -> number =
     x += 3;
     console.log(x);
 }
+
+Check type
+
+typeof "74"
+// string
+
+typeof 74
+// number
