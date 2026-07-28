@@ -213,7 +213,18 @@ Correct{
 Constants
 
 If value never changes
-
 Use
-
 const PI = 3.14159;
+
+Uppercase Constants = Use uppercase only for fixed values known before the program runs.
+const COLOR_RED = "#F00";
+const MAX_USERS = 100;
+
+good variable names = {
+    let studentName;
+    let totalMarks;
+    let shoppingCart;
+    let currentUser;
+}
+
+Don't Reuse Variables
