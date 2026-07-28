@@ -299,3 +299,6 @@ Increment (++)
 
 let x = 5;
 x++;
+
+Prefix ++x Increment first. then returns
+Postfix x++ Return current value. Then increment.
