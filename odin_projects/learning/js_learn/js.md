@@ -257,3 +257,12 @@ Number int float
 
 num.toFixed(2) //decimal
 "74" 74 not same
+
+
+string -> number = 
+{
+    let x = "74";
+    x = Number(x);
+    x += 3;
+    console.log(x);
+}
