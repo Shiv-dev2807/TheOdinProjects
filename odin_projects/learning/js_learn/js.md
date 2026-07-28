@@ -329,4 +329,4 @@ Comparison Operators
 | `<=`     | Less than or equal    |
 | `>=`     | Greater than or equal |
 
-==, !=
+==, != (does not compare the datatype)
