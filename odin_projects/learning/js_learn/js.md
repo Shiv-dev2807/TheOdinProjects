@@ -252,3 +252,8 @@ summary
     Give variables meaningful camelCase names (shoppingCart, currentUser).
     Declare a variable only once; after that, update it without let.
 }
+
+Number int float
+
+num.toFixed(2) //decimal
+"74" 74 not same
