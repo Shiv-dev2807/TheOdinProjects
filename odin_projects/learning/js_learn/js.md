@@ -307,3 +307,6 @@ Decrement (--)
 
 let x = 5;
 x--;
+
+Assignment Operators
+x = x + 5; => x += 5;
