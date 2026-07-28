@@ -333,3 +333,6 @@ Comparison Operators
 bool = true and false
 
 Math.random() b/w 0 to 1
+
+Math.floor(5.9) Rounds down.
+Math.ceil(5.1) Rounds up.
