@@ -310,3 +310,11 @@ x--;
 
 Assignment Operators
 x = x + 5; => x += 5;
+
+| Operator | Shortcut   | Meaning |
+| -------- | ---------- | ------- |
+| `=`      | Assignment | `x=5`   |
+| `+=`     | Add        | `x=x+5` |
+| `-=`     | Subtract   | `x=x-5` |
+| `*=`     | Multiply   | `x=x*5` |
+| `/=`     | Divide     | `x=x/5` |
