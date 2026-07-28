@@ -125,3 +125,95 @@ Comments
         a comment
     */
 }
+
+
+alert() // pop up on top
+
+Variable = A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+
+{
+    let message = 'Hello!';
+    alert(message);
+}
+
+{
+    let user = 'John', age = 25, message = 'Hello';
+
+    let user = 'John';
+    let age = 25;
+    let message = 'Hello';
+
+    let user = 'John',
+      age = 25,
+      message = 'Hello';
+    
+    let user = 'John'
+      , age = 25
+      , message = 'Hello';
+}
+
+let
+Modern variable.
+
+const
+Cannot change.
+
+var
+Old JavaScript.
+
+Declaring twice= 
+
+let message = "Hello";
+message = "World";
+
+
+Naming = 
+{
+    let user;
+    let user123;
+    let user_name;
+    let $money;
+}
+
+camelCase = {let myName;}
+
+Case Sensitive
+
+let apple = 5;
+let Apple = 10; //both are not same
+
+Reserved Words
+Cannot use
+let
+return
+class
+function
+if
+else
+
+Strict Mode Without strict mode 
+num = 5;
+JavaScript automatically creates the variable.
+Bad practice.
+{
+Use
+"use strict";
+
+Then
+num = 5;
+
+Error.
+}
+Correct{
+    "use strict";
+    let num = 5;
+}
+
+
+Constants
+
+If value never changes
+
+Use
+
+const PI = 3.14159;
