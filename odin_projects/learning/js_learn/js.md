@@ -228,3 +228,12 @@ good variable names = {
 }
 
 Don't Reuse Variables
+
+Real-Life Example
+
+let userName = "Shiv";
+let age = 20;
+let isStudent = true;
+console.log(userName);
+console.log(age);
+console.log(isStudent);
