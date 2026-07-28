@@ -244,3 +244,11 @@ summary
 | `let`   | ✅ Yes       | ✅ Yes   | Normal variables   |
 | `const` | ❌ No        | ✅ Yes   | Fixed values       |
 | `var`   | ✅ Yes       | ❌ Old   | Avoid in modern JS |
+
+{
+    Use let for values that can change.
+    Use const for values that should never change.
+    Avoid var in modern JavaScript.
+    Give variables meaningful camelCase names (shoppingCart, currentUser).
+    Declare a variable only once; after that, update it without let.
+}
