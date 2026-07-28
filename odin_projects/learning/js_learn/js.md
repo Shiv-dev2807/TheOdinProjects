@@ -328,3 +328,5 @@ Comparison Operators
 | `>`      | Greater than          |
 | `<=`     | Less than or equal    |
 | `>=`     | Greater than or equal |
+
+==, !=
