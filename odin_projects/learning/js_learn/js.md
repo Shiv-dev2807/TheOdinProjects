@@ -318,3 +318,13 @@ x = x + 5; => x += 5;
 | `-=`     | Subtract   | `x=x-5` |
 | `*=`     | Multiply   | `x=x*5` |
 | `/=`     | Divide     | `x=x/5` |
+
+Comparison Operators
+| Operator | Meaning               |
+| -------- | --------------------- |
+| `===`    | Equal                 | (strict compares even the type of data)
+| `!==`    | Not equal             | (compares type of data aswell)
+| `<`      | Less than             |
+| `>`      | Greater than          |
+| `<=`     | Less than or equal    |
+| `>=`     | Greater than or equal |
