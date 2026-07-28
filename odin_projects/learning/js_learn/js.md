@@ -274,3 +274,15 @@ typeof "74"
 
 typeof 74
 // number
+
+
+Arithmetic Operators
+
+| Operator | Meaning        | Example | Result |
+| -------- | -------------- | ------- | ------ |
+| `+`      | Addition       | `5+2`   | 7      |
+| `-`      | Subtraction    | `5-2`   | 3      |
+| `*`      | Multiplication | `5*2`   | 10     |
+| `/`      | Division       | `10/2`  | 5      |
+| `%`      | Remainder      | `8%3`   | 2      |
+| `**`     | Power          | `5**2`  | 25     |
