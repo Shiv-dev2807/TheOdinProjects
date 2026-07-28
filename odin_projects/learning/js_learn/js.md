@@ -237,3 +237,10 @@ let isStudent = true;
 console.log(userName);
 console.log(age);
 console.log(isStudent);
+
+summary 
+| Keyword | Can Change? | Modern? | Use When           |
+| ------- | ----------- | ------- | ------------------ |
+| `let`   | ✅ Yes       | ✅ Yes   | Normal variables   |
+| `const` | ❌ No        | ✅ Yes   | Fixed values       |
+| `var`   | ✅ Yes       | ❌ Old   | Avoid in modern JS |
