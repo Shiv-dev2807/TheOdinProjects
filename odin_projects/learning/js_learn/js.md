@@ -330,3 +330,4 @@ Comparison Operators
 | `>=`     | Greater than or equal |
 
 ==, != (does not compare the datatype)
+bool = true and false
