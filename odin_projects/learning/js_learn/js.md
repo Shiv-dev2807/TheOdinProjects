@@ -286,3 +286,16 @@ Arithmetic Operators
 | `/`      | Division       | `10/2`  | 5      |
 | `%`      | Remainder      | `8%3`   | 2      |
 | `**`     | Power          | `5**2`  | 25     |
+
+Operator Precedence (Order of Operations)
+
+JavaScript follows normal math rules (PEMDAS/BODMAS).
+()
+**
+* / %
++ -
+
+Increment (++)
+
+let x = 5;
+x++;
