@@ -331,3 +331,5 @@ Comparison Operators
 
 ==, != (does not compare the datatype)
 bool = true and false
+
+Math.random() b/w 0 to 1
