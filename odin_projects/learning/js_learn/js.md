@@ -421,4 +421,8 @@ Prefix ++x
 Bitwise Operators
 & | ^ ~ << >> >>>
 
-Comma Operator ,
+Comma Operator , Only the last expression's value is returned.
+let a=(1+2,3+4);
+1+2=3 (ignored)
+3+4=7
+a=7
