@@ -408,3 +408,17 @@ n+=5;
 *=
 /=
 %=
+Increment ++
+Postfix x++
+
+let x=1;
+let a=x++;
+x=2
+a=1
+
+Prefix ++x
+
+Bitwise Operators
+& | ^ ~ << >> >>>
+
+Comma Operator ,
