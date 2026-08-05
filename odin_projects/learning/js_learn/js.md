@@ -359,3 +359,12 @@ Binary Operands = 5 - 2 = 3
 
 
 String Concatenation using +
+"Hello" + "World" = HelloWorld
+"1"+2 = 12
+2+2+"1" = 41
+Unlike +, operators like 
+-
+*
+/
+%
+automatically convert strings into numbers.
