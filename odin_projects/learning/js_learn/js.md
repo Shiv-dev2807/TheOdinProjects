@@ -337,3 +337,25 @@ Math.random() b/w 0 to 1
 Math.floor(5.9) Rounds down.
 Math.ceil(5.1) Rounds up.
 num.toFixed(2)
+
+
+operator performs an operation
+
+
+Unary Operator = Works on one operand.
+let x = 5;
+-x
+op = -5
+
+Binary Operands = 5 - 2 = 3
+| Operator | Meaning        | Example  |
+| -------- | -------------- | -------- |
+| `+`      | Addition       | `5+2=7`  |
+| `-`      | Subtraction    | `5-2=3`  |
+| `*`      | Multiplication | `5*2=10` |
+| `/`      | Division       | `10/2=5` |
+| `%`      | Remainder      | `5%2=1`  |
+| `**`     | Power          | `2**3=8` |
+
+
+String Concatenation using +
