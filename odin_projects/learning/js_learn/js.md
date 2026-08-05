@@ -382,3 +382,29 @@ let b="3";
 
 5
 Without unary plus = a+b "23"
+Assignment Operator =
+Assignment Returns a Value
+let a=1;
+let b=2;
+
+let c=3-(a=b+1);
+b+1=3
+a=3
+3-3=0
+a=3
+c=0
+
+Chaining Assignment
+a=b=c=2+2;
+2+2=4
+c=4
+b=4
+a=4
+
+Modify and Assign Operators
+n+=5;
++=
+-=
+*=
+/=
+%=
