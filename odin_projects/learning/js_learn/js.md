@@ -368,3 +368,17 @@ Unlike +, operators like
 /
 %
 automatically convert strings into numbers.
+
+Unary Plus +
++"5" = 5
++true = 1
++"" = 0
+Number(value)
+
+let a="2";
+let b="3";
+
++a + +b
+
+5
+Without unary plus = a+b "23"
