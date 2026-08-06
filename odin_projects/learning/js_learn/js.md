@@ -435,7 +435,7 @@ BigInt = let big = 12345678901234567890n;
 Boolean = let isLogged = true;
 Undefined = let x; Variable declared but no value assigned
 Null = Intentional empty value let data = null;
-Symbol → Unique identifiers
+Symbol → Unique identifiers let id = Symbol("id");
 Object → Collections of data 
 let user = {name:"Shiv", age:21};
 
