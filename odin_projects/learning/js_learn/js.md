@@ -426,3 +426,15 @@ let a=(1+2,3+4);
 1+2=3 (ignored)
 3+4=7
 a=7
+
+==============================
+
+String = let name = "Shiv";
+Number = let age = 21;
+BigInt = let big = 12345678901234567890n;
+Boolean = let isLogged = true;
+Undefined = let x; Variable declared but no value assigned
+Null = Intentional empty value let data = null;
+Symbol → Unique identifiers
+Object → Collections of data 
+let user = {name:"Shiv", age:21};
