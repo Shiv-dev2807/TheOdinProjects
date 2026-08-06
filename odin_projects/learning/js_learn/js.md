@@ -534,3 +534,18 @@ if(age >= 18){
 }
 
 Truthy and Falsy Values
+Falsy Values:
+
+false
+0
+""
+null
+undefined
+NaN
+
+Truthy Values:
+true
+"hello"
+123
+[]
+{}
