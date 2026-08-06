@@ -438,3 +438,42 @@ Null = Intentional empty value let data = null;
 Symbol → Unique identifiers
 Object → Collections of data 
 let user = {name:"Shiv", age:21};
+
+
+Strings = 
+Single Quotes = let text = 'Hello';
+Double Quotes = let text = "Hello";
+Backticks = 
+let name = "Shiv";
+console.log(`Hello ${name}`);
+Hello Shiv
+
+
+String Methods =
+text.length;
+text.toUpperCase();
+text.toLowerCase();
+text.includes("Java"); Checks if text exists.
+text.slice(0,4);
+
+
+Conditionals
+let age = 18;
+
+if(age >= 18){
+    console.log("Adult");
+}
+else{
+    console.log("Minor");
+}
+
+| Operator | Meaning              |
+| -------- | -------------------- |
+| `==`     | Equal value          |
+| `===`    | Equal value and type |
+| `!=`     | Not equal            |
+| `!==`    | Not equal value/type |
+| `>`      | Greater than         |
+| `<`      | Less than            |
+| `>=`     | Greater or equal     |
+| `<=`     | Less or equal        |
