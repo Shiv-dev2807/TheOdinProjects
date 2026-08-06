@@ -477,3 +477,60 @@ else{
 | `<`      | Less than            |
 | `>=`     | Greater or equal     |
 | `<=`     | Less or equal        |
+
+Logical Operators
+AND (&&)  |  OR (||) | NOT (!)
+
+
+Conditional Statements
+
+if 
+if(condition){
+   // code
+}
+
+if...else
+if(condition){
+}
+else{
+}
+
+else if
+if(score>=90){
+    grade="A";
+}
+else if(score>=70){
+    grade="B";
+}
+else{
+    grade="C";
+}
+
+Switch Statement
+let day = 2;
+
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    default:
+        console.log("Invalid");
+}
+
+
+Nesting
+let age = 20;
+let hasID = true;
+
+if(age >= 18){
+    if(hasID){
+        console.log("Allowed");
+    }
+}
+
+Truthy and Falsy Values
